@@ -32,7 +32,7 @@ public enum Symbol {
     else_block(EnumSet.of(ELSE), ElseBlockNode.class),
     else_if_prefix(EnumSet.of(ELSEIF), ElseIfNode.class),
     subst(EnumSet.of(NAME), AssignmentNode.class),
-    cond(EnumSet.of( SUB, LP, NAME, INTVAL, DOUBLEVAL, LITERAL ), CondNode.class),
+    cond(EnumSet.of(SUB, LP, NAME, INTVAL, DOUBLEVAL, LITERAL), CondNode.class),
     expr(EnumSet.of(SUB, LP, NAME, INTVAL, DOUBLEVAL, LITERAL),ExpressionNode.class),
     var(EnumSet.of(NAME), VariableNode.class),
     leftvar(EnumSet.of(NAME), VariableNode.class),
